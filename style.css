@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+
+    border-style: outset;
+    border-color: blueviolet greenyellow;
+    border-width: 7px;
+
+    background-image: url(Images/back.png);
+
+    padding-left: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.origami{
+    display: flex;
+    justify-content: left;
+}
+
+h4{
+    border-style: outset;
+    border-color: springgreen;
+    border-width: 7px;
+
+    background-color: cyan;
+
+    margin-bottom: 250px;
+
+    align-self: center;
+}
+
+p{
+    align-self: center;
+}
+
+ul{
+    align-self: center;
+}
+
+a:hover{
+    color: rgb(150, 107, 29);
+}
